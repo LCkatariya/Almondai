@@ -1,0 +1,124 @@
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import './partials/header';
+@import './partials/home';
+@import './partials/about';
+@import './partials/services';
+@import './partials/facts';
+@import './partials/blog';
+@import './partials/footer';
+@import './partials/testimonials';
+@import './partials/contact';
+@import './partials/feature';
+@import './partials/portfolio';
+@import './partials/team';
+@import './partials/clint';
+@import './partials/solution';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  
+  background-color: #aaaaaa3d
+}
+.section-headerr {
+  .section-title {
+    font-weight: bold;
+    color: #4e4e4e;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-bottom: 2rem;
+    span {
+      color: #248eff;
+    }
+    &:after {
+      content: '';
+      content: '';
+      display: block;
+      height: 3px;
+      width: 70px;
+      background: #248eff;
+      position: absolute;
+      top: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .section-subtitle {
+    max-width: 700px;
+    color: #6f6f6f;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+// section
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f7fbfe;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.section-title h2::before, .section-title h2::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 15px 0 0 0;
+}
+
+
+// body {
+// 	background:repeating-linear-gradient(-85deg, #ee7752, #e73c7e, #23a6d5, #23d5ab ,#808583,#97b6af);
+// 	background-size: 2800% 2800%;
+// 	animation: gradient 15s ease infinite;
+// }
+
+// @keyframes gradient {
+// 	0% {
+// 		background-position: 0% 50%;
+// 	}
+// 	50% {
+// 		background-position: 100% 50%;
+// 	}
+// 	100% {
+// 		background-position: 0% 50%;
+// 	}
+// }
