@@ -39,11 +39,11 @@
     transform: translateY(-20px);
     transition: all 0.3s ease;
 }
-.serviceBox .service-icon i img{
+.serviceBox .service-icon img{
 	width: 70px;
    
 }
-.serviceBox:hover .service-icon i img{
+.serviceBox:hover .service-icon img{
 	width: 70px;
     transform: rotateX(360deg);
     transition: all 0.3s;

@@ -13,10 +13,10 @@ const Testimonials = () =>{
             <h2>Testimonials</h2>
             <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
           </div>
-          <div className="container mt-3">
+          <div className="container">
 
             <div className="row justify-content-center">
-              <div className="col-md-4 mr-3 ml-3 d-flex">
+              <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
                 <div className="card d-flex mx-auto">
                   <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src="http://www.visionrival.com/images/sunil.jpeg"  
                       style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}}/>  
@@ -36,7 +36,7 @@ const Testimonials = () =>{
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mr-3 ml-3 d-flex">
+              <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
                 <div className="card d-flex mx-auto">
                   <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src="https://i.imgur.com/Uz4FjGZ.jpg" 
                       style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}} /> 

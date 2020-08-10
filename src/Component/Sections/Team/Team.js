@@ -1,7 +1,6 @@
 import React from 'react';
 
 import section from '../../../HOC/Section';
-import Link from '../../Ui/Link/Link';
 
 const Team = () =>{
     return(
@@ -27,7 +26,7 @@ const Team = () =>{
                   </div>
                 </div>
                 <div className="member-info">
-                    <h4>Walter White</h4>
+                    <h4>Ankit Kumar Khandelwal</h4>
                     <span>Chief Executive Officer</span>
                 </div>
               </div>
@@ -45,7 +44,7 @@ const Team = () =>{
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Sarah Jhonson</h4>
+                  <h4>Ashok Kumar Saini</h4>
                   <span>Product Manager</span>
                 </div>
               </div>
@@ -63,8 +62,8 @@ const Team = () =>{
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Vikash Saini</h4>
+                  <span>CEO</span>
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@ const Team = () =>{
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="400">
                 <div className="member-img">
-                  <img src={require("../../../img/team/team-4.jpg")} className="img-fluid" alt="" />
+                  <img src={require("../../../img/team/IMG20191130162753.jpg")} className="img-fluid" alt="" />
                   <div className="social">
                     <a href=""><i className="icofont-twitter"></i></a>
                     <a href=""><i className="icofont-facebook"></i></a>
@@ -81,7 +80,7 @@ const Team = () =>{
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Amanda Jepson</h4>
+                  <h4>Lalchand Saini</h4>
                   <span>Accountant</span>
                 </div>
               </div>

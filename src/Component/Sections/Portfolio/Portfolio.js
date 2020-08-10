@@ -26,7 +26,7 @@ const Portfolio = () =>{
 
           <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex ">
               <div className="portfolio-wrap">
                 <img src="http://www.visionrival.com/images/ico.png" className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -40,7 +40,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web d-flex">
               <div className="portfolio-wrap">
                 <img src="http://www.visionrival.com/images/robotic.png" className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -54,7 +54,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
               <div className="portfolio-wrap">
                 <img src="http://www.visionrival.com/images/priblock.png" className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -68,7 +68,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card d-flex">
               <div className="portfolio-wrap">
                 <img src={require("../../../img/portfolio/portfolio-4.jpg")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -82,7 +82,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web d-flex">
               <div className="portfolio-wrap">
                 <img src={require("../../../img/portfolio/portfolio-5.jpg")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -96,7 +96,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
               <div className="portfolio-wrap">
                 <img src={require("../../../img/portfolio/portfolio-6.jpg")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -110,7 +110,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card d-flex">
               <div className="portfolio-wrap">
                 <img src="http://www.visionrival.com/images/emigo.webp" className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -124,7 +124,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card d-flex">
               <div className="portfolio-wrap">
                 <img src={require("../../../img/portfolio/portfolio-8.jpg")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -138,7 +138,7 @@ const Portfolio = () =>{
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web d-flex">
               <div className="portfolio-wrap">
                 <img src={require("../../../img/portfolio/portfolio-9.jpg")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
