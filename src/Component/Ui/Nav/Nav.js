@@ -51,8 +51,8 @@ const Nav = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link target='solution' classes='nav-link'>
-                solution
+              <Link target='product' classes='nav-link'>
+                products
               </Link>
             </li>
             <li className='nav-item'>
@@ -63,6 +63,11 @@ const Nav = () => {
             <li className='nav-item'>
               <Link target='features' classes='nav-link'>
                 Feature
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link target='solution' classes='nav-link'>
+                solution
               </Link>
             </li>
             <li className='nav-item'>
