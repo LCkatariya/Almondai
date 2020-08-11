@@ -17,7 +17,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img mt-4" data-aos="fade-left" data-aos-delay="300">
-              <img src={require("/home/bharat/lckatariya_project/Almodai/landing-page/src/img/Asset 3.png")} className="img-fluid animated" alt="" />
+              <img src={require("../../../img/Asset 3.png")} className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>
