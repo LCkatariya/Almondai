@@ -18,7 +18,7 @@ const Testimonials = () =>{
             <div className="row justify-content-center">
               <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
                 <div className="card d-flex mx-auto">
-                  <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src="http://www.visionrival.com/images/sunil.jpeg"  
+                  <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src={require("../../../img/testimonials/sunil.jpg")}  
                       style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}}/>  
                   </div>
                   <div className="card-text">
@@ -38,7 +38,7 @@ const Testimonials = () =>{
               </div>
               <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
                 <div className="card d-flex mx-auto">
-                  <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src="https://i.imgur.com/Uz4FjGZ.jpg" 
+                  <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src={require("../../../img/testimonials/testimonials.jpg")} 
                       style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}} /> 
                   </div>
                   <div className="card-text">

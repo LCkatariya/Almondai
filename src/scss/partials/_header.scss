@@ -17,11 +17,10 @@
     position: absolute;
   }
   .navbar-brand {
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #ee9734;
-    @media (min-width: 768px) {
-      font-size: 1.8rem;
+   
+    width: 170px;
+    @media (max-width: 768px) {
+     width: 140px;
     }
     i {
       color: #248eff;
@@ -29,7 +28,7 @@
     }
   }
   .navbar {
-    background-color: #b8aef5bd;
+    background-color:#9068be;;;
     box-shadow: 0px 2px 6px rgba(43, 73, 111, 0.2);
     &.scrolled {
       @media (min-width: 768px) {
@@ -43,13 +42,13 @@
   .nav-link {
     text-transform: uppercase;
     font-weight: 700;
-    color: #4e4e4e !important;
+    color: #242424 !important;
     font-size: 0.85rem;
     &:hover {
-      color: darken(#248eff, 6%) !important;
+      color: darken(#0070e7, 6%) !important;
     }
     &.active {
-      color: lighten(#248eff, 5%) !important;
+      color: lighten(#004c9c, 5%) !important;
     }
     @media (min-width: 768px) {
       padding: 1rem 1rem;

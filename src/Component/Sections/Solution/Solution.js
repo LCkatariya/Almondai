@@ -16,7 +16,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <img src="http://www.visionrival.com/images/ico.png"></img>
+                          <img src={require("../../../img/solutions/solution-1.png")}></img>
                       </div>
                       <h3 className="title">ICO/CROWDSALE</h3>
                       
@@ -26,7 +26,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <img src="http://www.visionrival.com/images/priblock.png"></img>
+                      <img src={require("../../../img/solutions/solution-2.png")}></img>
                       </div>
                       <h3 className="title">CONSORTIUM BLOCKCHAIN</h3>
                       
@@ -36,7 +36,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <img src="http://www.visionrival.com/images/smart-contract-icon.png"></img>
+                          <img src={require("../../../img/solutions/solution-3.png")}></img>
                       </div>
                       <h3 className="title">SMART CONTRACT</h3>
                       
@@ -46,7 +46,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <img src="http://www.visionrival.com/images/AI.png"></img>
+                      <img src={require("../../../img/solutions/solution-4.png")}></img>
                       </div>
                       <h3 className="title">AI AS A SERVICE</h3>
                       
@@ -56,7 +56,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <img src="http://www.visionrival.com/images/adas.png"></img>
+                          <img src={require("../../../img/solutions/solution-5.png")}></img>
                       </div>
                       <h3 className="title">ADAS</h3>
                       
@@ -66,7 +66,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <img src="http://www.visionrival.com/images/vision-in.png"></img>
+                      <img src={require("../../../img/solutions/solution-6.png")}></img>
                       </div>
                       <h3 className="title">VISION INTELLIGENCE</h3>
                       
@@ -76,7 +76,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <img src="http://www.visionrival.com/images/robotic.png"></img>
+                          <img src={require("../../../img/solutions/solution-7.png")}></img>
                       </div>
                       <h3 className="title">AI ENABLED IOT SOLUTIONS</h3>
                       
@@ -86,7 +86,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <img src="http://www.visionrival.com/images/edge-intelligence.png"></img>
+                      <img src={require("../../../img/solutions/solution-8.png")}></img>
                       </div>
                       <h3 className="title">AI ON EDGE</h3>
                       
@@ -96,7 +96,7 @@ class Solution extends Component {
               <div className="col-md-3 col-sm-6 ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <img src="http://www.visionrival.com/images/serverLess.png"></img>
+                          <img src={require("../../../img/solutions/solution-9.png")}></img>
                       </div>
                       <h3 className="title">SERVELESS</h3>
                       

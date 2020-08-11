@@ -23,8 +23,7 @@ const Nav = () => {
     <nav className={`navbar navbar-expand-md  ${navClass}`}>
       <div className='container'>
         <a className='navbar-brand' href='!#'>
-          <span>Almondai</span>
-          <i className='fas fa-circle ml-1' />
+        <img src={require("../../../img/almondAIlogo.png")}  className="img-fluid" alt="" data-aos="zoom-in" />
         </a>
         <div
           className={`navbar-toggler nav-icon ${(() => {

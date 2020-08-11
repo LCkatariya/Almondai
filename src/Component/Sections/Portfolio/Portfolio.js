@@ -28,7 +28,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex ">
               <div className="portfolio-wrap">
-                <img src="http://www.visionrival.com/images/ico.png" className="img-fluid" alt="" />
+                <img src={require("../../../img/solutions/solution-1.png")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>App 1</h4>
                   <p>App</p>
@@ -42,7 +42,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-web d-flex">
               <div className="portfolio-wrap">
-                <img src="http://www.visionrival.com/images/robotic.png" className="img-fluid" alt="" />
+                <img src={require("../../../img/solutions/solution-2.png")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Web 3</h4>
                   <p>Web</p>
@@ -56,7 +56,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex">
               <div className="portfolio-wrap">
-                <img src="http://www.visionrival.com/images/priblock.png" className="img-fluid" alt="" />
+                <img src={require("../../../img/solutions/solution-3.png")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>App 2</h4>
                   <p>App</p>
@@ -112,7 +112,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-card d-flex">
               <div className="portfolio-wrap">
-                <img src="http://www.visionrival.com/images/emigo.webp" className="img-fluid" alt="" />
+                <img src={require("../../../img/solutions/solution-7.png")} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Card 1</h4>
                   <p>Card</p>

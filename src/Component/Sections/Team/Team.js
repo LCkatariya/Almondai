@@ -17,7 +17,7 @@ const Team = () =>{
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="100">
                 <div className="member-img">
-                  <img src={require("../../../img/team/team-1.jpg")} className="img-fluid" alt="" />
+                  <img src={require("../../../img/team/ankit.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
                     <a href=""><i className="icofont-twitter"></i></a>
                     <a href=""><i className="icofont-facebook"></i></a>
@@ -35,7 +35,7 @@ const Team = () =>{
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="200">
                 <div className="member-img">
-                  <img src={require("../../../img/team/team-2.jpg")} className="img-fluid" alt="" />
+                  <img src={require("../../../img/team/ashok.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
                     <a href=""><i className="icofont-twitter"></i></a>
                     <a href=""><i className="icofont-facebook"></i></a>
@@ -53,7 +53,7 @@ const Team = () =>{
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="300">
                 <div className="member-img">
-                  <img src={require("../../../img/team/team-3.jpg")} className="img-fluid" alt="" />
+                  <img src={require("../../../img/team/vikash.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
                     <a href=""><i className="icofont-twitter"></i></a>
                     <a href=""><i className="icofont-facebook"></i></a>
