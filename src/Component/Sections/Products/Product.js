@@ -16,7 +16,7 @@ class Products extends Component {
               <div className="col-md-3 col-sm-6 d-flex ">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <span><img src={require("../../../img/product/product-1.png")}></img></span>
+                          <span><img src={require("../../../img/product/product-1.png")} alt=""></img></span>
                       </div>
                       <h3 className="title">EMIGO</h3>
                       <p className="description">"Emigo" app senses your facial expressions like your friend. 
@@ -29,7 +29,7 @@ class Products extends Component {
               <div className="col-md-3 col-sm-6 d-flex">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <span><img src={require("../../../img/product/product-2.svg")}></img></span>
+                      <span><img src={require("../../../img/product/product-2.svg")} alt=""></img></span>
                       </div>
                       <h3 className="title">SYNHEALTH</h3>
                       <p className="description">Synhealth.com is a technology company with a heart 
@@ -42,7 +42,7 @@ class Products extends Component {
               <div className="col-md-3 col-sm-6 d-flex">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <span><img src={require("../../../img/product/product-3.png")}></img></span>
+                          <span><img src={require("../../../img/product/product-3.png")} alt=""></img></span>
                       </div>
                       <h3 className="title">TRACKMATE</h3>
                       <p className="description">A GPS-based school bus tracking system, 
@@ -56,7 +56,7 @@ class Products extends Component {
               <div className="col-md-3 col-sm-6 d-flex">
                   <div className="serviceBox purple">
                       <div className="service-icon">
-                      <span><img src={require("../../../img/product/product-4.svg")}></img></span>
+                      <span><img src={require("../../../img/product/product-4.svg")} alt=""></img></span>
                       </div>
                       <h3 className="title">BLOCKCHAIN MULTIPOOL MINING SERVER</h3>
                       <p className="description">This portal is an extremely efficient, highly scalable, 
@@ -70,7 +70,7 @@ class Products extends Component {
               <div className="col-md-3 col-sm-6 d-flex">
                   <div className="serviceBox">
                       <div className="service-icon">
-                          <span><img src={require("../../../img/product/product-5.png")}></img></span>
+                          <span><img src={require("../../../img/product/product-5.png")} alt=""></img></span>
                       </div>
                       <h3 className="title">DATA SHIELD COI</h3>
                       <p className="description">ERC20 based token developed as Data security as the underlying assets. 

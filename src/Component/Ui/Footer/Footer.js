@@ -1,10 +1,9 @@
 import React from 'react';
 // npm install --save-dev @iconify/react @iconify/icons-ion
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import iosArrowRight from '@iconify/icons-ion/ios-arrow-right';
 import BackToTop from "react-back-to-top-button";
 
-import section from '../../../HOC/Section';
 
 
 const Footer = () =>{
@@ -22,11 +21,11 @@ const Footer = () =>{
                         <div className="col-lg-3 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><i className="fa fa-chevron-right"></i><a href="#">Home</a></li>
-                                <li><i className="fa fa-chevron-right"></i><a href="#">About us</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#">Services</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#">Terms of service</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#">Privacy policy</a></li>
+                                <li><i className="fa fa-chevron-right"></i><a href="#/">Home</a></li>
+                                <li><i className="fa fa-chevron-right"></i><a href="#/">About us</a></li>
+                                <li><Icon icon={iosArrowRight} /> <a href="#/">Services</a></li>
+                                <li><Icon icon={iosArrowRight} /> <a href="#/">Terms of service</a></li>
+                                <li><Icon icon={iosArrowRight} /> <a href="#/">Privacy policy</a></li>
                             </ul>
                         </div>
                     
@@ -41,14 +40,13 @@ const Footer = () =>{
                             </p>
 
                             <div className="social-links">
-                                <a href="#" className="twitter"><i className="fab fa-twitter"></i></a>
-                                <a href="#" className="facebook"><i className="fab fa-facebook-f"></i></a>
-                                <a href="#" className="instagram"><i className="fab fa-instagram"></i></a>
-                                <a href="#" className="google-plus"><i className="fab fa-google-plus-g"></i></a>
-                                <a href="#" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="#/" className="twitter"><i className="fab fa-twitter"></i></a>
+                                <a href="#/" className="facebook"><i className="fab fa-facebook-f"></i></a>
+                                <a href="#/" className="instagram"><i className="fab fa-instagram"></i></a>
+                                <a href="#/" className="google-plus"><i className="fab fa-google-plus-g"></i></a>
+                                <a href="#/" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
                             </div>
-                        </div>
-
+                          </div>
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
                             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>

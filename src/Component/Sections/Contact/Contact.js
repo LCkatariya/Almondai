@@ -1,9 +1,8 @@
 import React from 'react';
-import BackToTop from "react-back-to-top-button";
 
 import section from '../../../HOC/Section';
 
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import iosTelephoneOutline from '@iconify/icons-ion/ios-telephone-outline';
 import mapMarkerLine from '@iconify/icons-clarity/map-marker-line';
 import emailLine from '@iconify/icons-clarity/email-line';
@@ -48,7 +47,7 @@ const Contact = () =>{
 					</div>
 				</div>
 					<div className="form">
-						<form action="forms/contact.php" method="post" role="form" className="php-email-form">
+						<form action="forms/contact.php" method="post"  className="php-email-form">
 
 							<div className="row">
 									<div className="form-group col-md-6">

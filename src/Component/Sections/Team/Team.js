@@ -19,10 +19,10 @@ const Team = () =>{
                 <div className="member-img">
                   <img src={require("../../../img/team/ankit.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
-                    <a href=""><i className="icofont-twitter"></i></a>
-                    <a href=""><i className="icofont-facebook"></i></a>
-                    <a href=""><i className="icofont-instagram"></i></a>
-                    <a href=""><i className="icofont-linkedin"></i></a>
+                    <a href="#/"><i className="icofont-twitter"></i></a>
+                    <a href="#/"><i className="icofont-facebook"></i></a>
+                    <a href="#/"><i className="icofont-instagram"></i></a>
+                    <a href="#/"><i className="icofont-linkedin"></i></a>
                   </div>
                 </div>
                 <div className="member-info">
@@ -37,10 +37,10 @@ const Team = () =>{
                 <div className="member-img">
                   <img src={require("../../../img/team/ashok.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
-                    <a href=""><i className="icofont-twitter"></i></a>
-                    <a href=""><i className="icofont-facebook"></i></a>
-                    <a href=""><i className="icofont-instagram"></i></a>
-                    <a href=""><i className="icofont-linkedin"></i></a>
+                    <a href="#/"><i className="icofont-twitter"></i></a>
+                    <a href="#/"><i className="icofont-facebook"></i></a>
+                    <a href="#/"><i className="icofont-instagram"></i></a>
+                    <a href="#/"><i className="icofont-linkedin"></i></a>
                   </div>
                 </div>
                 <div className="member-info">
@@ -55,10 +55,10 @@ const Team = () =>{
                 <div className="member-img">
                   <img src={require("../../../img/team/vikash.jpeg")} className="img-fluid" alt="" />
                   <div className="social">
-                    <a href=""><i className="icofont-twitter"></i></a>
-                    <a href=""><i className="icofont-facebook"></i></a>
-                    <a href=""><i className="icofont-instagram"></i></a>
-                    <a href=""><i className="icofont-linkedin"></i></a>
+                    <a href="#/"><i className="icofont-twitter"></i></a>
+                    <a href="#/"><i className="icofont-facebook"></i></a>
+                    <a href="#/"><i className="icofont-instagram"></i></a>
+                    <a href="#/"><i className="icofont-linkedin"></i></a>
                   </div>
                 </div>
                 <div className="member-info">
@@ -73,10 +73,10 @@ const Team = () =>{
                 <div className="member-img">
                   <img src={require("../../../img/team/IMG20191130162753.jpg")} className="img-fluid" alt="" />
                   <div className="social">
-                    <a href=""><i className="icofont-twitter"></i></a>
-                    <a href=""><i className="icofont-facebook"></i></a>
-                    <a href=""><i className="icofont-instagram"></i></a>
-                    <a href=""><i className="icofont-linkedin"></i></a>
+                    <a href="#/"><i className="icofont-twitter"></i></a>
+                    <a href="#/"><i className="icofont-facebook"></i></a>
+                    <a href="#/"><i className="icofont-instagram"></i></a>
+                    <a href="#/"><i className="icofont-linkedin"></i></a>
                   </div>
                 </div>
                 <div className="member-info">
