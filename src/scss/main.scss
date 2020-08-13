@@ -24,10 +24,16 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 // @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
-  height: 100vh;
   font-family: 'Roboto', sans-serif;
-  
-  background-color: #aaaaaa3d
+  background-image: url("../img/background/blue_waves-1366x768.jpg");
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  // background-color: #aaaaaa3d
 }
 .section-headerr {
   .section-title {
@@ -68,7 +74,9 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+ background-image: url("../img/background/background.gif");
+  background-repeat: repeat; 
+  background-size: 1300px 1150px;
 }
 
 .section-title {

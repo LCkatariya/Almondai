@@ -25,11 +25,11 @@
     margin-bottom: 15px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #999;
+    color: #333;
   }
   
   #contact .contact-info a {
-    color: #555;
+    color: #333;
   }
   
   #contact .contact-info a:hover {
@@ -165,5 +165,8 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+  .form-control{
+    background-color: lightblue;
   }
   

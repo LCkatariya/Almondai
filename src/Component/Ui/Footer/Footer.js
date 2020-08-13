@@ -46,7 +46,7 @@ const Footer = () =>{
                                 <a href="#/" className="google-plus"><i className="fab fa-google-plus-g"></i></a>
                                 <a href="#/" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
                             </div>
-                          </div>
+                         </div>
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
                             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>

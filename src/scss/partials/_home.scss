@@ -9,13 +9,8 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #484848;
-}
-
-#hero h2 {
-  color: #484848;; 
-  margin-bottom: 50px;
-  font-size: 24px;
+  color: rgb(139, 3, 132);
+  
 }
 
 #hero .btn-get-started {
@@ -27,13 +22,13 @@
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #1b1c75;
+  border: 2px solid #1b1c75;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
+  background:  #1b1c75;
+  color: rgb(255, 255, 255);
 }
 
 #hero .animated {
@@ -47,12 +42,12 @@
   }
 }
 #hero .hero-img img {
-  width: 100%;
+  width: 80%;
 }
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 125vh;
   }
   #hero .animated {
     -webkit-animation: none;
@@ -60,9 +55,14 @@
   }
   #hero .hero-img {
     text-align: center;
+    width: 80%;
+    
   }
-  #hero .hero-img img {
-    width: 50%;
+  
+}
+@media (max-width: 391px) {
+  #hero {
+    height: 95vh;
   }
 }
 

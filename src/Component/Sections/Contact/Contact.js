@@ -47,7 +47,7 @@ const Contact = () =>{
 					</div>
 				</div>
 					<div className="form">
-						<form action="forms/contact.php" method="post"  className="php-email-form">
+						<form action="forms/contact.php" method="post" className="php-email-form">
 
 							<div className="row">
 									<div className="form-group col-md-6">
