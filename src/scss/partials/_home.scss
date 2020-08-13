@@ -9,7 +9,7 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(139, 3, 132);
+  color: #333;
   
 }
 
@@ -22,13 +22,13 @@
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #1b1c75;
-  border: 2px solid #1b1c75;
+  color: #333;
+  border: 2px solid #333;
 }
 
 #hero .btn-get-started:hover {
-  background:  #1b1c75;
-  color: rgb(255, 255, 255);
+  background:  #2a84d8;
+  color: #fff;
 }
 
 #hero .animated {
@@ -36,18 +36,20 @@
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   #hero {
     background-attachment: fixed;
+
+    
   }
 }
 #hero .hero-img img {
-  width: 80%;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
   #hero {
-    height: 125vh;
+    height: 130vh;
   }
   #hero .animated {
     -webkit-animation: none;
@@ -55,14 +57,14 @@
   }
   #hero .hero-img {
     text-align: center;
-    width: 80%;
+    width: 70%;
     
   }
   
 }
-@media (max-width: 391px) {
+@media (max-width: 375px) {
   #hero {
-    height: 95vh;
+    height: 100vh;
   }
 }
 
@@ -80,13 +82,19 @@
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 100%;
+  }
+  #hero {
+    height: 100vh;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 90%;
+  }
+  #hero {
+    height: 100vh;
   }
 }
 

@@ -13,11 +13,11 @@ const Home = () => {
               <h1 data-aos="fade-up">MAKING LIFE INTERESTING USING <br/>AI & BLOCKCHAIN</h1>
               
               <div data-aos="fade-up" data-aos-delay="800">
-                <a href="#/" className="btn-get-started scrollto">Get Started</a>
+                <a href="#/" className="btn-get-started scrollto">Shop Now</a>
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img mt-4" data-aos="fade-left" data-aos-delay="300">
-              <img src={require("../../../img/robot/alpha_system_360.png")} className="img-fluid animated" alt="" />
+              <img src={require("../../../img/Asset 3.png")} className="img-fluid animated" alt="" />
             </div>
           </div>
         </div>

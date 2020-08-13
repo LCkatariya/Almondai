@@ -1,5 +1,4 @@
 import React from 'react';
-// npm install --save-dev @iconify/react @iconify/icons-ion
 import { Icon } from '@iconify/react';
 import iosArrowRight from '@iconify/icons-ion/ios-arrow-right';
 import BackToTop from "react-back-to-top-button";
@@ -15,7 +14,12 @@ const Footer = () =>{
 
                         <div className="col-lg-3 col-md-6 footer-info">
                             <h3>Almondai</h3>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            <p>Started with a perusal, how Machine Learning, 
+                                Deep Learning, and Computer Vision are making 
+                                our life easy and engaging, it soon became a passion 
+                                for us to work around these technologies.We stand by our
+                                values: the passion for quality, commitment to long-term 
+                                value creation, respect for people and for the planet.</p>
                         </div>
 
                         <div className="col-lg-3 col-md-6 footer-links">
@@ -32,11 +36,11 @@ const Footer = () =>{
                         <div className="col-lg-3 col-md-6 footer-contact">
                             <h4>Contact Us</h4>
                             <p>
-                                A108 Adam Street <br></br>
-                                New York, NY 535022<br></br>
-                                United States <br></br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br></br>
-                                <strong>Email:</strong> info@example.com<br></br>
+                            BTM 2nd Stage  <br></br>
+                            Bengaluru, Karnataka 560076<br></br>
+                                India <br></br>
+                                <strong>Phone:</strong> +91 5589 55488 55<br></br>
+                                <strong>Email:</strong> @almondai.com<br></br>
                             </p>
 
                             <div className="social-links">

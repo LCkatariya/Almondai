@@ -13,7 +13,7 @@ class Products extends Component {
         <div className="container">
           <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
 
-              <div className="col-md-3 col-sm-6 d-flex ">
+              <div className="col-md-4 col-sm-6 d-flex ">
                   <div className="serviceBox">
                       <div className="service-icon">
                           <span><img src={require("../../../img/product/product-1.png")} alt=""></img></span>
@@ -26,7 +26,7 @@ class Products extends Component {
                   </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 d-flex">
+              <div className="col-md-4 col-sm-6 d-flex">
                   <div className="serviceBox purple">
                       <div className="service-icon">
                       <span><img src={require("../../../img/product/product-2.svg")} alt=""></img></span>
@@ -39,7 +39,7 @@ class Products extends Component {
                   </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 d-flex">
+              <div className="col-md-4 col-sm-6 d-flex">
                   <div className="serviceBox">
                       <div className="service-icon">
                           <span><img src={require("../../../img/product/product-3.png")} alt=""></img></span>
@@ -53,7 +53,7 @@ class Products extends Component {
                   </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 d-flex">
+              <div className="col-md-4 col-sm-6 d-flex">
                   <div className="serviceBox purple">
                       <div className="service-icon">
                       <span><img src={require("../../../img/product/product-4.svg")} alt=""></img></span>
@@ -67,7 +67,7 @@ class Products extends Component {
                   </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 d-flex">
+              <div className="col-md-4 col-sm-6 d-flex">
                   <div className="serviceBox">
                       <div className="service-icon">
                           <span><img src={require("../../../img/product/product-5.png")} alt=""></img></span>

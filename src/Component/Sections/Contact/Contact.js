@@ -26,7 +26,9 @@ const Contact = () =>{
 							<div className="contact-addresss">
 								<Icon icon={mapMarkerLine} className="icon" />
 								<h3>Address</h3>
-								<address>A108 Adam Street, NY 535022, USA</address>
+								<address>1st Floor, Amara, Above SBI, 
+									Beside Reliance Fresh, BTM 2nd Stage, 
+									Bengaluru, Karnataka 560076</address>
 							</div>
 						</div>
 
@@ -42,7 +44,7 @@ const Contact = () =>{
 							<div className="contact-email">
 								<Icon icon={emailLine} className="icon" />
 								<h3>Email</h3>
-								<p><a href="mailto:info@example.com">info@example.com</a></p>
+								<p><a href="mailto:info@example.com">@almondai.com</a></p>
 							</div>
 					</div>
 				</div>

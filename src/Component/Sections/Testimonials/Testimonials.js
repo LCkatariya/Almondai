@@ -13,13 +13,13 @@ const Testimonials = () =>{
             <h2>Testimonials</h2>
             <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
           </div>
-          <div className="container">
+          
 
             <div className="row justify-content-center">
-              <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
+              <div className="col-md-4 mt-4  d-flex">
                 <div className="card d-flex mx-auto">
                   <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src={require("../../../img/testimonials/sunil.jpg")}  
-                      style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}} alt=""/>  
+                      alt=""/>  
                   </div>
                   <div className="card-text">
                       <div className="card-title">
@@ -36,24 +36,25 @@ const Testimonials = () =>{
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mr-3 mt-4 ml-3 d-flex">
+              <div className="col-md-4 mt-4  d-flex">
                 <div className="card d-flex mx-auto">
                   <div className="card-image"> <img className="img-fluid d-flex mx-auto mb-5" src={require("../../../img/testimonials/testimonials.jpg")} 
-                      style={{ width: '6.2rem',borderRadius: '5rem',margin: '1.3rem '}} alt=""/> 
+                       alt=""/> 
                   </div>
                   <div className="card-text">
                     <div className="card-title">Lorem Ipsum!</div> 
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus Duis leo. Donec sodales sagittis magna
+                    Good company for R&D in core Artificial Intelligence and Blockchain space. Convivial work environment and customer engagement.
                   </div>
-                  <div className="footer">
-                    <span id="name">Angellia Miller<br/></span> 
+                  <div className="footer mt-5">
+                    <span id="name">Hari Mohan
+<br/></span> 
                     <span id="position">CEO of <a href="#/">Facebook.com</a></span> 
                   </div>
                 </div>
               </div>
         
             </div>
-          </div>
+          
         </div>
       </section>
       
