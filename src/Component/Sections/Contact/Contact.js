@@ -18,7 +18,7 @@ const Contact = () =>{
 
 					<div className="section-title" data-aos="">
 						<h2>Contact Us</h2>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+						<p>We are pleased to hear any feedback from you.</p>
 					</div>
 
 					<div className="row contact-info">
@@ -77,7 +77,7 @@ const Contact = () =>{
 									</div>
 									<div className="text-center"><button type="submit">Send Message</button></div>
 						</form>									
-          </div>
+                    </div>
 				</div>
 			</section>
     )

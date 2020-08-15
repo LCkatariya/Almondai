@@ -52,8 +52,8 @@ const Footer = () =>{
                             </div>
                          </div>
                         <div className="col-lg-3 col-md-6 footer-newsletter">
-                            <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <h4>Our Mission</h4>
+                            <p>VisionRival's mission is to provide our product engineering expertise with integrity, quality & execution excellence for our customer's success.</p>
                             <form action="" method="post">
                             <input type="email" name="email" /><input type="submit" value="Subscribe" />
                             </form>

@@ -9,7 +9,7 @@ const Team = () =>{
 
           <div className="section-title" data-aos="fade-up">
             <h2>Team</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+            <p>None of us is as smart as all of us.</p>
           </div>
 
           <div className="row">

@@ -7,7 +7,8 @@ class Products extends Component {
      <section className="product" id='product'>
           <div className="section-title" data-aos="fade-up">
               <h2>PRODUCTS</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+              <p>A result of our team-work and passion towards innovation.
+</p>
           </div>
       
         <div className="container">

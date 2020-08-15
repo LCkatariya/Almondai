@@ -10,7 +10,7 @@ const Portfolio = () =>{
 
           <div className="section-title" data-aos="fade-up">
               <h2>Portfolio</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+              {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p> */}
           </div>
           <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
 

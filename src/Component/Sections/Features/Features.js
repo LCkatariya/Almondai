@@ -9,7 +9,7 @@ const Features = () =>{
         <div className="container">  
           <div className="section-title" data-aos="fade-up">
               <h2>Features</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+              <p>When it comes to innovation, we leave no stone unturned.</p>
           </div>
 
           <div className="row" data-aos="fade-up" data-aos-delay="300">

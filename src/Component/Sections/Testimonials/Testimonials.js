@@ -72,7 +72,7 @@ export default class Testimonials extends Component {
         <section>
           <div id="testimonials" className="section-title" data-aos="fade-up">
               <h2>Testimonials</h2>
-              <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
+              <p>We believe, Well done is better than well said.</p>
           </div>
           <Carousel
           showArrows={true}

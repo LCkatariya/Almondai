@@ -70,7 +70,7 @@ const Nav = () => {
               </Link>
             </li>
       
-              <DropdownButton className="mt-2" id="dropdown-basic-button" title="Dropdown" variant="">
+              <DropdownButton className="mt-2" id="dropdown-basic-button" title="Dropdown" variant="" style={{}}>
 
                 <Dropdown.Item href="#/action-1">
                       <Link target='testimonials' classes='nav-link'>

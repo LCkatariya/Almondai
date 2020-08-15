@@ -9,8 +9,8 @@ const Services = () =>{
         <div className="container">
     
           <div className="section-title" data-aos="fade-up">
-              <h2>Community Products</h2>
-              <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
+              <h2>services</h2>
+              <p>We do believe in the contribution towards our community</p>
           </div>
     
           <div className="row">

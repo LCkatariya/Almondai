@@ -7,7 +7,7 @@ class Solution extends Component {
      <section className="solution" id='solution'>
           <div className="section-title" data-aos="fade-up">
               <h2>SOLUTIONS</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+              <p>AI and Blockchain at it's best.</p>
           </div>
       
         <div className="container">
