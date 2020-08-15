@@ -62,12 +62,6 @@
   }
   
 }
-@media (max-width: 375px) {
-  #hero {
-    height: 100vh;
-  }
-}
-
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
@@ -83,9 +77,6 @@
   }
   #hero .hero-img img {
     width: 100%;
-  }
-  #hero {
-    height: 100vh;
   }
 }
 
@@ -114,4 +105,19 @@
   100% {
     transform: translateY(-10px);
   }
+}
+
+@media (max-width: 700px) {
+  #hero {
+  height: calc(180vh );
+  position: relative;
+  margin-top: 56px;
+  } 
+}
+@media (max-width: 500px) {
+  #hero {
+  height: calc(80vh );
+  position: relative;
+  margin-top: 56px;
+  } 
 }
