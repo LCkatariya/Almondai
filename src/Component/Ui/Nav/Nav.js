@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Dropdown,DropdownButton} from 'react-bootstrap';
+import {Dropdown} from 'react-bootstrap';
 import Link from '../Link/Link';
 
 const Nav = () => {
@@ -70,33 +70,36 @@ const Nav = () => {
               </Link>
             </li>
       
-              <DropdownButton className="mt-2" id="dropdown-basic-button" title="Dropdown" variant="" style={{}}>
+            <Dropdown>
+              <Dropdown.Toggle style={{fontSize:"13px",fontWeight:"bold",marginTop:"10px",padding:"6px" }} variant="" id="dropdown-basic">
+                MORE
+              </Dropdown.Toggle>
+                <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">
+                          <Link target='testimonials' classes='nav-link'>
+                            Testimonials
+                          </Link>
+                      </Dropdown.Item>
 
-                <Dropdown.Item href="#/action-1">
-                      <Link target='testimonials' classes='nav-link'>
-                        Testimonials
-                      </Link>
-                  </Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                          <Link target='portfolio' classes='nav-link'>
+                            Portfolio
+                          </Link>
+                      </Dropdown.Item>
 
-                 <Dropdown.Item href="#/action-2">
-                      <Link target='portfolio' classes='nav-link'>
-                        Portfolio
-                      </Link>
-                  </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3"> 
+                          <Link target='team' classes='nav-link'>
+                            Team
+                          </Link>
+                      </Dropdown.Item>
 
-                  <Dropdown.Item href="#/action-3"> 
-                      <Link target='team' classes='nav-link'>
-                        Team
-                      </Link>
-                  </Dropdown.Item>
-
-                  <Dropdown.Item href="#/action-3"> 
-                      <Link target='clients' classes='nav-link'>
-                        our associations
-                      </Link>
-                  </Dropdown.Item>
-                  
-            </DropdownButton>
+                      <Dropdown.Item href="#/action-3"> 
+                          <Link target='clients' classes='nav-link'>
+                            our associations
+                          </Link>
+                      </Dropdown.Item>
+                </Dropdown.Menu>
+             </Dropdown>
                           
             <li className='nav-item'>
               <Link target='contact' classes='nav-link'>
