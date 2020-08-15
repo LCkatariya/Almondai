@@ -36,7 +36,7 @@ const Contact = () =>{
 							<div className="contact-phone">
 								<Icon icon={iosTelephoneOutline} className="icon"/>
 								<h3>Phone Number</h3>
-								<p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+								<p><a href="#/">+91 8058 136137</a></p>
 							</div>
 					</div>
 
@@ -44,7 +44,7 @@ const Contact = () =>{
 							<div className="contact-email">
 								<Icon icon={emailLine} className="icon" />
 								<h3>Email</h3>
-								<p><a href="mailto:info@example.com">@almondai.com</a></p>
+								<p><a href="#/">info@almondai.com</a></p>
 							</div>
 					</div>
 				</div>

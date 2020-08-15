@@ -2,22 +2,9 @@
     padding: 60px 0;
   }
   
-  
   #contact .contact-info {
     margin-bottom: 20px;
     text-align: center;
-  }
-  
-  #contact .contact-info i {
-    font-size: 48px;
-    display: inline-block;
-    margin-bottom: 10px;
-    color: #3498db;
-  }
-  
-  #contact .contact-info addresss, #contact .contact-info p {
-    margin-bottom: 0;
-    color: #000;
   }
   
   #contact .contact-info h3 {
@@ -25,11 +12,11 @@
     margin-bottom: 15px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #999;
+    color: #555;
   }
   
   #contact .contact-info a {
-    color: #555;
+    color: #444;
   }
   
   #contact .contact-info a:hover {
@@ -40,9 +27,6 @@
    
   }
   
-  #contact .contact-addresss, #contact .contact-phone, #contact .contact-email, #contact .icon{
-    margin-bottom: 20px;
-  }
   
   @media (min-width: 768px) {
     #contact .contact-addresss, #contact .contact-phone, #contact .contact-email{

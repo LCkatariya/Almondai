@@ -39,8 +39,8 @@ const Footer = () =>{
                             BTM 2nd Stage  <br></br>
                             Bengaluru, Karnataka 560076<br></br>
                                 India <br></br>
-                                <strong>Phone:</strong> +91 5589 55488 55<br></br>
-                                <strong>Email:</strong> @almondai.com<br></br>
+                                <strong>Phone:</strong> +91 8058 136137<br></br>
+                                <strong>Email:</strong> info@almondai.com<br></br>
                             </p>
 
                             <div className="social-links">

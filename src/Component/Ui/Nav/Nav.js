@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import {Dropdown,DropdownButton} from 'react-bootstrap';
 import Link from '../Link/Link';
 
 const Nav = () => {
@@ -69,26 +69,35 @@ const Nav = () => {
                 solution
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link target='testimonials' classes='nav-link'>
-                Testimonials
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link target='portfolio' classes='nav-link'>
-                Portfolio
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link target='team' classes='nav-link'>
-                Team
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link target='clients' classes='nav-link'>
-                clients
-              </Link>
-            </li>
+      
+              <DropdownButton className="mt-2" id="dropdown-basic-button" title="Dropdown" variant="">
+
+                <Dropdown.Item href="#/action-1">
+                      <Link target='testimonials' classes='nav-link'>
+                        Testimonials
+                      </Link>
+                  </Dropdown.Item>
+
+                 <Dropdown.Item href="#/action-2">
+                      <Link target='portfolio' classes='nav-link'>
+                        Portfolio
+                      </Link>
+                  </Dropdown.Item>
+
+                  <Dropdown.Item href="#/action-3"> 
+                      <Link target='team' classes='nav-link'>
+                        Team
+                      </Link>
+                  </Dropdown.Item>
+
+                  <Dropdown.Item href="#/action-3"> 
+                      <Link target='clients' classes='nav-link'>
+                        our associations
+                      </Link>
+                  </Dropdown.Item>
+                  
+            </DropdownButton>
+                          
             <li className='nav-item'>
               <Link target='contact' classes='nav-link'>
                 Contact
