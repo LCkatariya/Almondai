@@ -44,11 +44,11 @@ const Footer = () =>{
                             </p>
 
                             <div className="social-links">
-                                <a href="#/" className="twitter"><i className="fab fa-twitter"></i></a>
-                                <a href="#/" className="facebook"><i className="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/VisionRival" className="twitter"><i className="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/visionRival/" className="facebook"><i className="fab fa-facebook-f"></i></a>
                                 <a href="#/" className="instagram"><i className="fab fa-instagram"></i></a>
                                 <a href="#/" className="google-plus"><i className="fab fa-google-plus-g"></i></a>
-                                <a href="#/" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/company/13346467/" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
                             </div>
                          </div>
                         <div className="col-lg-3 col-md-6 footer-newsletter">
@@ -72,9 +72,6 @@ const Footer = () =>{
             <div className="container">
                 <div className="copyright">
                     &copy; Copyright <strong>Almondai</strong>. All Rights Reserved
-                </div>
-                <div className="credits">
-                    Designed by <a href="/#">Almondai group</a>
                 </div>
             </div>
         </footer>
