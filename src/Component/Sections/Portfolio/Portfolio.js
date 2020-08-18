@@ -16,7 +16,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app d-flex ">
               <div className="">
-              <iframe width="100%" height="65%" src="https://www.youtube.com/embed/LDyPnhUZWp8" frameBorder="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
+              <iframe title="myFrame" width="100%" height="65%" src="https://www.youtube.com/embed/LDyPnhUZWp8" frameBorder="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
                 <div className="portfolio-info">
                   <h4>SmartCam</h4>
                   <p>Number plate detection and text recognition is widely 
@@ -31,7 +31,7 @@ const Portfolio = () =>{
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-web d-flex">
               <div className="">
-              <iframe width="100%" height="65%" src="https://www.youtube.com/embed/LeOGVMlVIfI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>                <div className="portfolio-info">
+              <iframe title="myFrame" width="100%" height="65%" src="https://www.youtube.com/embed/LeOGVMlVIfI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>                <div className="portfolio-info">
                   <h4>Emigo</h4>
                   <p>"Emigo" app senses your facial expressions like your friend. 
                     It senses what you are up to and what needs to be done to 

@@ -25,11 +25,11 @@ const Footer = () =>{
                         <div className="col-lg-3 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><i className="fa fa-chevron-right"></i><a href="#/">Home</a></li>
-                                <li><i className="fa fa-chevron-right"></i><a href="#/">About us</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#/">Services</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#/">Terms of service</a></li>
-                                <li><Icon icon={iosArrowRight} /> <a href="#/">Privacy policy</a></li>
+                                <li><Icon icon={iosArrowRight}/><a href="home">Home</a></li>
+                                <li><Icon icon={iosArrowRight}/><a href="#services">Services</a></li>
+                                <li><Icon icon={iosArrowRight}/><a href="#features">Feature</a></li>
+                                <li><Icon icon={iosArrowRight}/><a href="#portfolio">Portfolio</a></li>
+                                <li><Icon icon={iosArrowRight}/><a href="#team">Team</a></li>
                             </ul>
                         </div>
                     
