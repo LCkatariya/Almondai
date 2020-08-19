@@ -27,7 +27,7 @@ const Team = () =>{
                 </div>
                 <div className="member-info">
                     <h4>Ankit Kumar Khandelwal</h4>
-                    <span>Chief Executive Officer</span>
+                    <span>Head Digital Mrketing Analyst</span>
                 </div>
               </div>
             </div>
