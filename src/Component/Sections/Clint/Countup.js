@@ -18,7 +18,7 @@ const Countup = () =>{
                     <div className="col-md-6 d-md-flex align-items-md-stretch">
                         <div className="count-box">
                             <i className="icofont-simple-smile"></i>
-                            <span data-toggle="counter-up">65</span>
+                            <span data-toggle="counter-up">15</span>
                             <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ const Countup = () =>{
                     <div className="col-md-6 d-md-flex align-items-md-stretch">
                       <div className="count-box">
                           <i className="icofont-document-folder"></i>
-                          <span data-toggle="counter-up">85</span>
+                          <span data-toggle="counter-up">20</span>
                           <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
                       </div>
                     </div>
@@ -34,7 +34,7 @@ const Countup = () =>{
                     <div className="col-md-6 d-md-flex align-items-md-stretch">
                       <div className="count-box">
                           <i className="icofont-clock-time"></i>
-                          <span data-toggle="counter-up">12</span>
+                          <span data-toggle="counter-up">4</span>
                           <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
                       </div>
                     </div>
@@ -42,7 +42,7 @@ const Countup = () =>{
                     <div className="col-md-6 d-md-flex align-items-md-stretch">
                       <div className="count-box">
                           <i className="icofont-award"></i>
-                          <span data-toggle="counter-up">15</span>
+                          <span data-toggle="counter-up">7</span>
                           <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                       </div>
                     </div>

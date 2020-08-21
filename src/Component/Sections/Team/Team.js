@@ -14,6 +14,19 @@ const Team = () =>{
 
           <div className="row">
 
+          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member" data-aos="fade-up" data-aos-delay="300">
+                <div className="member-img">
+                  <img src={require("../../../img/team/vikash.jpg")} className="img-fluid" alt="" />
+                  
+                </div>
+                <div className="member-info">
+                  <h4>Vikash Saini</h4>
+                  <span>CEO</span>
+                </div>
+              </div>
+            </div>
+
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="100">
                 <div className="member-img">
@@ -41,19 +54,6 @@ const Team = () =>{
             </div>
 
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div className="member" data-aos="fade-up" data-aos-delay="300">
-                <div className="member-img">
-                  <img src={require("../../../img/team/vikash.jpg")} className="img-fluid" alt="" />
-                  
-                </div>
-                <div className="member-info">
-                  <h4>Vikash Saini</h4>
-                  <span>CEO</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay="400">
                 <div className="member-img">
                   <img src={require("../../../img/team/IMG20191130162753.jpg")} className="img-fluid" alt="" />
@@ -61,7 +61,7 @@ const Team = () =>{
                 </div>
                 <div className="member-info">
                   <h4>Lalchand Saini</h4>
-                  <span>Accountant</span>
+                  <span>Engineer</span>
                 </div>
               </div>
             </div>
