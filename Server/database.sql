@@ -1,4 +1,4 @@
-CREATE DATABASE Perntodo;
+CREATE DATABASE Almondai;
 
 CREATE TABLE contact(
     contact_id SERIAL PRIMARY KEY,
