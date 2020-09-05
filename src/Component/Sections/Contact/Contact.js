@@ -19,7 +19,7 @@ const Contact = () =>{
         e.preventDefault();
         try {
             const body = { name , email , subject , message };
-            const response = await fetch("http://34.206.109.62:3000/contacts",
+            const response = await fetch("http://34.206.109.62:5000/contacts",
             {
                 method:"POST",
                 headers:{"content-Type":"application/json"},
