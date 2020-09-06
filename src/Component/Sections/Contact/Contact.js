@@ -14,6 +14,7 @@ const Contact = () =>{
 	const [email , setEmail] = useState("");
 	const [subject , setSubject] = useState("");
 	const [message , setMessage] = useState("");
+	
 
 	const onSubmitForm = async(e) => {
         e.preventDefault();
@@ -30,7 +31,8 @@ const Contact = () =>{
         } catch (err) {
             console.error(err.message);
         }
-    }
+	}
+	
 
 
     return(
@@ -76,26 +78,26 @@ const Contact = () =>{
 								<div className="form-group col-md-6">
 									<input type="text" name="name" className="form-control" 
 									id="name" placeholder="Your Name" value={name} 
-									onChange={e => setName(e.target.value)} />
+									onChange={e => setName(e.target.value)}  required/>
 								</div>
 								<div className="form-group col-md-6">
 									<input type="email" className="form-control" name="email" 
 									id="email" placeholder="Your Email" value={email} 
-									onChange={e => setEmail(e.target.value)}/>
+									onChange={e => setEmail(e.target.value)} required/>
 								</div>
 							</div>
 
 							<div className="form-group">
 								<input type="text" className="form-control" name="subject" 
 								id="subject" placeholder="Subject" value={subject} 
-								onChange={e => setSubject(e.target.value)} />
+								onChange={e => setSubject(e.target.value)}  required/>
 							</div>
 							<div className="form-group">
 								<textarea className="form-control" name="message" rows="5"  
 								placeholder="Message" value={message} 
-								onChange={e => setMessage(e.target.value)}></textarea>
+								onChange={e => setMessage(e.target.value)} required></textarea>
 							</div>
-							<div className="text-center"><button type="submit">Send Message</button></div>
+							<div className="text-center" ><button type="submit">Send Message</button></div>
 						</form>									
                     </div>
 				</div>
