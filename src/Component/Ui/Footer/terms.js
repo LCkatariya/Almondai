@@ -5,7 +5,7 @@ function TermsCondition() {
         <div className="termsConditions">
 
             <h3>Terms & Condition</h3>
-            <p>
+            <div>
                 <p> Welcome to Almondai Technologies  Private Limited (“Almondai Group”). If you continue to browse and use
                     this website you are agreeing to comply with and be bound by the following terms and conditions of use,
                     which together with our privacy policy govern Almondai Group relationship with you in relation to this
@@ -130,7 +130,7 @@ function TermsCondition() {
                     prohibited or restricted in any manner under the provisions of any applicable law, rule, regulation or guideline
                     for the time being in force;</p>
 
-            </p>
+            </div>
         </div>
     )
 }
