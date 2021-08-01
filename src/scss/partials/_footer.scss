@@ -147,10 +147,22 @@
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 0px;
 }
 
-                   // back to top button //
+#footer .terms{  
+  font-size: 12px;
+  text-align: right;
+  position:relative;
+  left:0;
+  right:0;
+  top:30px;
+  bottom:0;
+}
+#footer .terms a{
+  color: #111;
+}            
+       // back to top button //
 
 .back-to-top {
   position: fixed;
