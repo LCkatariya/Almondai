@@ -20,10 +20,7 @@ class Products extends Component {
                                     <span><a href='https://ilearnplace.com/'><img src={require("../../../img/product/product-6.png")} alt=""></img></a></span>
                                 </div>
                                 <h3 className="title">ilearnplace</h3>
-                                <p className="description">"Emigo" app senses your facial expressions like your friend.
-                                    It senses what you are up to and what needs to be done to enhance or change your mood.
-                                    Meet your new virtual Friend Emigo that detects your emotion and will suggest you
-                                    multimedia contents accordingly.</p>
+                                <p className="description">At ilearnplace we have created a platform that allows students to learn by doing. We have focused on developing a way for students to assist each other in learning.</p>
                             </div>
                         </div>
 

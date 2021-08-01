@@ -1,7 +1,5 @@
 import React from 'react';
 
-import section from '../../../HOC/Section';
-
 
 const Home = () => {
   return (
@@ -13,7 +11,7 @@ const Home = () => {
               <h1 data-aos="fade-up">MAKING LIFE INTERESTING USING <br/>AI & BLOCKCHAIN</h1>
               
               <div data-aos="fade-up" data-aos-delay="800">
-                <a href="https://ilearnplace.com/'" className="btn-get-started scrollto">Shop Now</a>
+                <a href="https://ilearnplace.com/" className="btn-get-started scrollto">Shop Now</a>
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 hero-img mt-4" data-aos="fade-left" data-aos-delay="300">
