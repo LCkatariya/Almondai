@@ -58,8 +58,8 @@ const Footer = () => {
                                 <input type="email" name="email" /><input type="submit" value="Subscribe" />
                             </form>
                             <div className="terms">
-                                <sup>*</sup> <a href="/terms">Terms & Conditions</a><br/>
-                                <sup>*</sup> <a href="/privacy">Privacy Policy</a>
+                                <sup>*</sup> <a href={'/terms'}>Terms & Conditions</a><br/>
+                                <sup>*</sup> <a href={'/privacy'}>Privacy Policy</a>
                             </div>
                         </div>
                     </div>
