@@ -2,6 +2,10 @@ import React from 'react';
 
 
 function PrivacyPolicy() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="termsConditions">
             <h3>Privacy & Policy</h3>
