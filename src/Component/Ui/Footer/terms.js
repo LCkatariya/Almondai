@@ -1,8 +1,10 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
 
 function TermsCondition() {
     return (
-        <div className="termsConditions">
+        <div >
+            <Container>
 
             <h3>Terms & Condition</h3>
             {/* <div>
@@ -131,6 +133,7 @@ function TermsCondition() {
                     for the time being in force;</p>
 
             </div> */}
+            </Container>
         </div>
     )
 }
