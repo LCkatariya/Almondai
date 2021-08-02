@@ -3,9 +3,9 @@ import React from 'react';
 
 function PrivacyPolicy() {
     return (
-        <div >
+        <div className="termsConditions">
             <h3>Privacy & Policy</h3>
-            {/* <div><p>
+            <div><p>
                 This privacy policy sets out how Almondai Technologies  (“Almondai  Group”) uses and protects
                 any information that you give us when you use this networking platform (“Almondai
                 Group Community”) on the website www.almondai.com.</p>
@@ -48,10 +48,10 @@ function PrivacyPolicy() {
                     particular for the following reasons:</p>
 
                 <p> Internal record keeping.
-                    We may use the information to improve our products and services.</p> */}
+                    We may use the information to improve our products and services.</p>
 
 
-            {/* </div> */}
+            </div>
         </div>
     )
 }
